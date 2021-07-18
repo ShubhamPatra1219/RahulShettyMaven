@@ -16,5 +16,12 @@ public class LaunchChromeBrowser {
 	@BeforeTest
 	public void LaunchChrome() {
 		chrome_driver = new ChromeDriver();
+		chrome_driver.manage().window().maximize();
+	}
+
+	@AfterMethod
+	public void CloseBrowser() {
+		chrome_driver.close();
+		chrome_driver.quit();
 	}
 }

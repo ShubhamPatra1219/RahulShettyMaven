@@ -2,20 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12880" started-at="2021-07-18T21:31:50 IST" finished-at="2021-07-18T21:32:03 IST">
+  <suite name="Default suite" duration-ms="15275" started-at="2021-07-18T21:59:22 IST" finished-at="2021-07-18T21:59:37 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12880" started-at="2021-07-18T21:31:50 IST" finished-at="2021-07-18T21:32:03 IST">
-      <class name="PracticeTest.FirstTestCase">
-        <test-method status="PASS" signature="SetupChrome()[pri:0, instance:PracticeTest.FirstTestCase@38bc8ab5]" name="SetupChrome" is-config="true" duration-ms="10835" started-at="2021-07-18T21:31:51 IST" finished-at="2021-07-18T21:32:01 IST">
+    <test name="Default test" duration-ms="15275" started-at="2021-07-18T21:59:22 IST" finished-at="2021-07-18T21:59:37 IST">
+      <class name="PracticeTest.FirstTestCase_Opera">
+        <test-method status="PASS" signature="SetupChrome()[pri:0, instance:PracticeTest.FirstTestCase_Opera@687080dc]" name="SetupChrome" is-config="true" duration-ms="12019" started-at="2021-07-18T21:59:22 IST" finished-at="2021-07-18T21:59:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetupChrome -->
-        <test-method status="PASS" signature="FirstTest()[pri:0, instance:PracticeTest.FirstTestCase@38bc8ab5]" name="FirstTest" duration-ms="1982" started-at="2021-07-18T21:32:01 IST" finished-at="2021-07-18T21:32:03 IST">
+        <test-method status="PASS" signature="FirstTest()[pri:0, instance:PracticeTest.FirstTestCase_Opera@687080dc]" name="FirstTest" duration-ms="2405" started-at="2021-07-18T21:59:34 IST" finished-at="2021-07-18T21:59:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstTest -->
-      </class> <!-- PracticeTest.FirstTestCase -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:PracticeTest.FirstTestCase_Opera@687080dc]" name="CloseBrowser" is-config="true" duration-ms="780" started-at="2021-07-18T21:59:36 IST" finished-at="2021-07-18T21:59:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- PracticeTest.FirstTestCase_Opera -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
